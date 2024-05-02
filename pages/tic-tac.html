@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/tic-tac.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-toe</title>
+</head>
+
+<body>
+    <div class="scoreboard">
+        <table>
+            <thead>
+                <tr>
+                    <th>Player X</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td id="playerOneScore">0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h1>Tic-Tac-Toe</h1>
+        <div class="board">
+            <table>
+                <tr>
+                    <td id="one"></td>
+                    <td id="two"></td>
+                    <td id="three"></td>
+                </tr>
+                <tr>
+                    <td id="four"></td>
+                    <td id="five"></td>
+                    <td id="six"></td>
+                </tr>
+
+                <tr>
+                    <td id="seven"></td>
+                    <td id="eight"></td>
+                    <td id="nine"></td>
+                </tr>
+
+            </table>
+        </div>
+        <div class="reset-box">
+            <button onclick="clearCells()" id="reset">Reset</button>
+        </div>
+    </div>
+    <div class="scoreboard-two">
+        <table>
+            <thead>
+                <tr>
+                    <th>Player 0</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td id="playerTwoScore">0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="/js/tic-tac.js">
+
+    </script>
+</body>
+
+</html>

@@ -169,7 +169,7 @@ body {
     animation-delay: 1.3s;
 }
 
-/* .home-content p {
+ .home-content p {
     position: relative;
     font-size: 16px;
     margin: 20px 0 40px;
@@ -185,7 +185,7 @@ body {
     background: #081b29;
     animation: showRight 1s ease forwards;
     animation-delay: 1.6s;
-} */
+} 
 
 .home-content .btn-box {
     display: flex;
@@ -238,11 +238,12 @@ body {
     background: transparent;
     color: yellowgreen;
 }
-
+/* here */
 .btn-box a:nth-child(2):hover {
     color: #081b29;
 }
 
+/* here */
 .btn-box a:nth-child(2)::before {
     background: yellowgreen;
 }
@@ -258,7 +259,7 @@ body {
     z-index: -1;
     transition: .5s;
 }
-
+/* here */
 .btn-box a:hover::before {
     width: 100%;
 }
@@ -304,13 +305,15 @@ body {
     width: 0%;
     height: auto;
     background: yellowgreen;
-    z-index: -1;
+    /* z-index: -1; */
     transition: .5s;
 
 }
 
+
 .home-sci a:hover::before {
     width: 100%;
+    
 }
 
 .home-imgHover {
@@ -325,11 +328,7 @@ body {
 
 }
 
-.home-imgHover img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 
 .home-imgHover:hover {
     height: 120%;
@@ -516,6 +515,29 @@ body {
         
         font-size: 36px;
     }
+
+    .home-sci a:hover {
+        color: #081b29;
+    } 
+
+    .home-sci a::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: auto;
+        background: yellowgreen;
+        z-index: -1;
+        transition: .5s;
+    
+    }
+
+    .home-sci a:hover::before {
+        width: 100%;
+        
+    }
+
 
     .home-imgHover {
         width: 40%;

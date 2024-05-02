@@ -9,32 +9,58 @@
 </head>
 
 <body>
+
   <header class="header">
     <a href="#" class="logo">Petera Ruri</a>
     <nav class="navbar">
-      <a href="/pages/index.html" class="active">Home</a>
-      <a href="/pages/about.html" class="active">About</a>
-      <a href="/pages/projects.html"  class="active">Projects</a>
-      <a href="/pages/contact.html" class="active">Contact</a>
+      <a href="/pages/index.html">Home</a>
+      <a href="/pages/about.html">About</a>
+      <a href="/pages/projects.html" class="active">Projects</a>
+      <a href="/pages/contacts.html">Contact</a>
     </nav>
   </header>
 
-  <section class="projects">
-    <!-- Add your project content here -->
-    <div class="project">
-      <h2>Project 1</h2>
-      <p>Description of project 1</p>
-    </div>
+  <div class="title">
+    <h1>My Projects</h1>
+  </div>
 
-    <div class="project">
-      <h2>Project 2</h2>
-      <p>Description of project 2</p>
-    </div>
+  <main class="main">
 
-    <!-- Add more projects as needed -->
+    <section class="projects">
+      <div class="project1">
+        <div class="expanding">
+          <img class="expanding-img" src="/images/expanding.png" />
+        </div>
+        <h2>Expanding Cards</h2>
+        <p>This setup is ideal for websites focusing on travel, photography, nature, or any content that benefits from a
+          strong visual presentation. The configuration allows for easy updates to both images and their descriptions,
+          ensuring the gallery remains fresh and engaging for visitors.</p>
+          <div class="project-btn">
+            <a href="/pages/expanding.html">View Project</a>
+          </div>
+      </div>
+    </section>
 
-  </section>
+    <section class="projects">
+      <div class="project2">
+        <div class="tic-tac">
+          <img src="/images/tictac.png" />
+        </div>
+        <h2>Tic-Tac-Toe</h2>
+        <p>Tic-tac-toe is often used as an introductory project in many programming courses and tutorials because it
+          covers a broad range of programming concepts while being relatively simple to implement. It offers a balance
+          of
+          quick wins and deeper learning opportunities, making it an enjoyable project for beginners and experienced
+          programmers alike.</p>
+          <div class="project-btn">
+            <a href="/pages/tic-tac.html">View Project</a>
+          </div>
+      </div>
 
+      <!-- Add more projects as needed -->
+    </section>
+  </main>
+<script src="/js/projects.js"></script>
 </body>
 
 </html>
